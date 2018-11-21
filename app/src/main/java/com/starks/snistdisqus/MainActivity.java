@@ -61,10 +61,10 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Profile prodetails = dataSnapshot.child(uid).getValue(Profile.class);
-            //    String name=prodetails.getUsername();
-              //  String con = prodetails.getContact();
-               // contact.setText(con);
-               // qualification.setText(name);
+                String name=prodetails.getUsername();
+                String con = prodetails.getContact();
+                contact.setText(con);
+                qualification.setText(name);
 
             }
 

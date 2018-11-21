@@ -16,6 +16,25 @@
 
 
     </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rview"
+        android:layout_alignEnd="@+id/rview"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:clickable="true"
+        android:paddingBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        app:elevation="4dp"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="30dp"
@@ -23,4 +42,5 @@
         android:layout_gravity="center|bottom"
         android:layout_marginBottom="20dp"
         android:visibility="gone"/>
+
 </RelativeLayout>

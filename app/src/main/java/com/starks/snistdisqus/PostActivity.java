@@ -66,7 +66,7 @@ public class PostActivity extends AppCompatActivity {
             Postfeed pf = new Postfeed(id,bloodtype,location,cat,subcat,desc,cinfo);
 
 
-            db.child("books").child(uid).child(id).setValue(pf);
+            db.child("books").child(id).setValue(pf);
 
 
 

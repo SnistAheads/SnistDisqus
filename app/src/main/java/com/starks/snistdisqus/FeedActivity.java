@@ -3,6 +3,7 @@ package com.starks.snistdisqus;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
@@ -25,6 +26,7 @@ public class FeedActivity extends AppCompatActivity {
     DatabaseReference myRef,myref2;
     List<Postfeed> list;
     RecyclerView recyclerview;
+    FloatingActionButton add;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +36,7 @@ public class FeedActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         database = FirebaseDatabase.getInstance();
         myRef = database.getReference().child("books");
-
+        add = (FloatingActionButton)findViewById(R.id.floatingActionButton);
 
 
 
@@ -80,7 +82,13 @@ public class FeedActivity extends AppCompatActivity {
                     }
                 });
 
-
+add.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent intent = new Intent(FeedActivity.this,PostActivity.class);
+        startActivity(intent);
+    }
+});
 
 
             }

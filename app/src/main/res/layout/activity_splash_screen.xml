@@ -21,7 +21,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp"
         android:gravity="center_vertical|center_horizontal"
-        android:text="Any Body Can Donate"
+        android:text="SNIST DISQUS"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="30sp" />

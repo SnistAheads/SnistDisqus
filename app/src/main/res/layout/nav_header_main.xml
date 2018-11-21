@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:elevation="4dp"
                 android:paddingTop="@dimen/nav_header_vertical_spacing"
-                android:text="Any Body Can Donate"
+                android:text="Snist Disqus"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/colorPrimary"
                 android:textSize="20sp"
@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:autoLink="email"
                 android:elevation="1dp"
-                android:text="abcd@gmail.com"
+                android:text="snistaheads@gmail.com"
                 android:textColor="@color/colorPrimary" />
 
             <TextView
