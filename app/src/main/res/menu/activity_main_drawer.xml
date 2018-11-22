@@ -9,15 +9,15 @@
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Feeds" />
+            android:title="Discussions" />
         <item
             android:id="@+id/nav_gallery2"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Notify a Book" />
+            android:title="Feeds" />
         <item
             android:id="@+id/nav_gallery3"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Completed Book Feeds" />
+            android:title="Addnl Feeds" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@android:drawable/ic_lock_power_off"

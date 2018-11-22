@@ -83,7 +83,7 @@
             android:background="@null"
             android:text="@string/btn_link_to_register"
             android:textAllCaps="false"
-            android:textColor="@android:color/white"
+            android:textColor="?android:attr/colorMultiSelectHighlight"
             android:textSize="15sp" />
     </LinearLayout>
 

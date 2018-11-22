@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:padding="10dp"
-            android:text="Upload a Book Feed"
+            android:text="Post"
             android:textColor="@android:color/black"
             android:textSize="20dp" />
 
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="20dp"
-                android:hint="enter your Book Name"
+                android:hint="enter your Name"
                 android:inputType="text"
                 android:textColor="@android:color/black"
                 android:textColorHint="@android:color/white" />
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="20dp"
-                android:hint="enter the book category(Education,novel,magazine etc.,)"
+                android:hint="enter the category"
                 android:inputType="text"
                 android:textColor="@android:color/black"
                 android:textColorHint="@android:color/white"
@@ -96,11 +96,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="20dp"
-                android:hint="enter the book sub-category(exam name(jee,gate etc),biography etc.,)"
+                android:hint="enter the sub-category(semester,mid,etc)"
                 android:inputType="text"
                 android:textColor="@android:color/black"
                 android:textColorHint="@android:color/white"
-                android:textSize="8sp" />
+                android:textSize="10sp" />
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -112,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="20dp"
-                android:hint="Description(About Book,Author,its Condition etc.,)"
+                android:hint="Description"
                 android:inputType="text"
                 android:textColor="@android:color/black"
                 android:textColorHint="@android:color/white"
